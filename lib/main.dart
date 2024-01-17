@@ -3,12 +3,11 @@ import "package:flutter/material.dart";
 /// Ana uygulamayı başlatır.
 void main() => runApp(const MyApp());
 
-/// MyApp, uygulamanın ana widget'ıdır.
+/// MyApp,main widget whole app
 class MyApp extends StatelessWidget {
-  /// MyApp'ın bir örneğini oluşturur.
+  /// Constructor for MyApp
   const MyApp({super.key});
 
-  /// Uygulamanın ana widget'ını oluşturur.
   @override
   Widget build(final BuildContext context) => MaterialApp(
         title: "Material App",
